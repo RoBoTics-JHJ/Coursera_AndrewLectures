@@ -89,7 +89,8 @@ What will be _c_? (If you’re not sure, feel free to run this in python to find
 - [ ] It will lead to an error since you cannot use “*” to operate on these two matrices. You need to instead use np.dot(a,b) 
 
 ### 10. Consider the following computation graph.
-![c1w2q10](./C1W2_Q_image/10.png)
+![wow](./C1W2_Q_image/10.png)
+<img src= 'https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/2_Neural%20Networks%20Basics/C1W2_Q_image/10.png'>
 What is the output _J_?
 
 - [x] J = (a - 1) * (b + c)
