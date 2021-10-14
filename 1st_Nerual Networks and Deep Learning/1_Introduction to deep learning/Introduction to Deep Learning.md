@@ -14,7 +14,7 @@
 
 ### 3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/3.png">
+  <img width="40%" height="40%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/3.png">
 </p>
 
 - [ ] It is faster to train on a big dataset than a small dataset.
@@ -26,7 +26,7 @@
 - False
 ### 5. Which one of these plots represents a ReLU activation function?
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/5.PNG">
+  <img width="40%" height="40%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/5.PNG">
 </p>
 
 ### 6. Images for cat recognition is an example of “structured” data, because it is represented as a structured array in a computer. True/False?
@@ -41,7 +41,7 @@
 
 ### 9. In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/9.png">
+  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/9.png">
 </p>
 
 - x-axis is the amount of data
