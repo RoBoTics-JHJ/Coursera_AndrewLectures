@@ -13,7 +13,10 @@
 - [x] We have access to a lot more data.
 
 ### 3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
-(picture)
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/3.png">
+</p>
+
 - [ ] It is faster to train on a big dataset than a small dataset.
 - [x] Faster computation can help speed up how long a team takes to iterate to a good idea.
 - [x] Being able to try out ideas quickly allows deep learning engineers to iterate more quickly.
@@ -22,7 +25,9 @@
 ### 4. When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?
 - False
 ### 5. Which one of these plots represents a ReLU activation function?
-(picture)
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/5.PNG">
+</p>
 
 ### 6. Images for cat recognition is an example of “structured” data, because it is represented as a structured array in a computer. True/False?
 - False
@@ -35,7 +40,10 @@
 - [ ] It is strictly more powerful than a Convolutional Neural Network (CNN). 
 
 ### 9. In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
-(picture)
+<p align="center">
+  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/9.png">
+</p>
+
 - x-axis is the amount of data
 
 - y-axis (vertical axis) is the performance of the algorithm.
