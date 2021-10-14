@@ -41,7 +41,7 @@
 
 ### 9. In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/9.png">
+  <img width="60%" height="60%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/9.png">
 </p>
 
 - x-axis is the amount of data
