@@ -22,17 +22,23 @@
 - False
 ---
 
-### 6. In batch normalization as presented in the videos, if you apply it on the llth layer of your neural network, what are you normalizing?
+### 6. In batch normalization as presented in the videos, if you apply it on the <img src="https://latex.codecogs.com/svg.image?l^{th}" title="l^{th}" /> layer of your neural network, what are you normalizing?
 - <img src="https://latex.codecogs.com/svg.image?z^{[l]}" title="z^{[l]}" />
 ---
 ### 7. In the normalization formula <img src="https://latex.codecogs.com/svg.image?z_{norm}^{(i)}&space;=&space;\frac{z^(i)&space;-&space;\mu&space;}{\sqrt{\sigma&space;^2&space;&plus;&space;\varepsilon&space;}}" title="z_{norm}^{(i)} = \frac{z^(i) - \mu }{\sqrt{\sigma ^2 + \varepsilon }}" />, why do we use epsilon?
 - To avoid division by zero
 ---
 
-### 8. Which of the following statements about \gammaγ and \betaβ in Batch Norm are true? 
-
+### 8. Which of the following statements about <img src="https://latex.codecogs.com/svg.image?\gamma&space;" title="\gamma " /> and <img src="https://latex.codecogs.com/svg.image?\beta&space;" title="\beta " /> in Batch Norm are true? 
+- They can be learned using Adam, Gradient descent with momentum, or RMSprop, not just with gradient descent.
+- They set the mean and variance of the linear variable <img src="https://latex.codecogs.com/svg.image?z[l]" title="z[l]" /> of a given layer.
 ---
-### 9.
-
+### 9. After training a neural network with Batch Norm, at test time, to evaluate the neural network on a new example you should:
+- Perform the needed normalizations, use <img src="https://latex.codecogs.com/svg.image?\mu&space;" title="\mu " /> and <img src="https://latex.codecogs.com/svg.image?\sigma^2&space;" title="\sigma^2 " /> estimated using an exponentially weighted average across mini-batches seen during training.
 ---
-### 10.
+
+### 10. Which of these statements about deep learning programming frameworks are true? (Check all that apply)
+- A programming framework allows you to code up deep learning algorithms with typically fewer lines of code than a lower-level language such as Python.
+- Even if a project is currently open source, good governance of the project helps ensure that the it remains open even in the long term, rather than become closed or modified to benefit only one company. 
+
+
