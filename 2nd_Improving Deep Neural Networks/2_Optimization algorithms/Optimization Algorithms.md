@@ -1,7 +1,7 @@
 # Optimization Algorithms
 
 ### 1. Which notation would you use to denote the 3rd layer’s activations when the input is the 7th example from the 8th minibatch?
-- <img src="https://latex.codecogs.com/svg.image?a^{[3]{8}(7)}" title="a^{[3]{8}(7)}" />
+- <img src="https://latex.codecogs.com/svg.image?a^{[3]{8}(7)}" title="a^{[3]{{8}}(7)}" />
 ---
 ### 2. Which of these statements about mini-batch gradient descent do you agree with?
 - [x] One iteration of mini-batch gradient descent (computing on a single mini-batch) is faster than one iteration of batch gradient descent.
