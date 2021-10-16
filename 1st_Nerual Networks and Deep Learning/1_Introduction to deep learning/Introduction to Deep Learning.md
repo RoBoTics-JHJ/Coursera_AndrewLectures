@@ -12,6 +12,8 @@
 - [ ] Neural Networks are a brand new field.
 - [x] We have access to a lot more data.
 ---
+***
+___
 ### 3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
 <p align="center">
   <img width="40%" height="40%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/1_Introduction%20to%20deep%20learning/C1W1_Q_image/3.png">
