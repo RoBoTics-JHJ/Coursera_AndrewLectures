@@ -3,7 +3,7 @@
 ### 1. <u>Problem Statement</u>
 This example is adapted from a real production application, but with details disguised to protect confidentiality.
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/3rd_Structuring%20Machine%20Learning%20Projects/1_ML%20Strategy(1)/C3W1_Q_image/1.jpg">
+  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/3rd_Structuring%20Machine%20Learning%20Projects/1_ML%20Strategy(1)/C3W1_Q_image/1.jpg">
 </p>
 
 You are a famous researcher in the City of Peacetopia. The people of Peacetopia have a common characteristic: they are afraid of birds. To save them, you have **to build an algorithm that will detect any bird flying overPeacetopia** and alert the population.
@@ -217,7 +217,7 @@ It turns out Peacetopia has hired one of your competitors to build a system as w
 ### 14.
 You’ve handily beaten your competitor, and your system is now deployed in Peacetopia and is protecting the citizens from birds! But over the last few months, a new species of bird has been slowly migrating into the area, so the performance of your system slowly degrades because your data is being tested on a new type of data.
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/3rd_Structuring%20Machine%20Learning%20Projects/1_ML%20Strategy(1)/C3W1_Q_image/14.jpg">
+  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/3rd_Structuring%20Machine%20Learning%20Projects/1_ML%20Strategy(1)/C3W1_Q_image/14.jpg">
 </p>
 You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
 
