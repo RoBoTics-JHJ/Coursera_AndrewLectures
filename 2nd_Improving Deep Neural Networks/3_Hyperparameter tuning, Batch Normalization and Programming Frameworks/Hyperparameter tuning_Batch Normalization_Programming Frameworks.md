@@ -17,16 +17,19 @@
 - r = np.random.rand()
 - <img src="https://latex.codecogs.com/svg.image?\beta&space;=&space;1-&space;100^{-r-1}&space;" title="\beta = 1- 100^{-r-1} " />
 ---
-### 5.
 
+### 5. Finding good hyperparameter values is very time-consuming. So typically you should do it once at the start of the project, and try to find very good hyperparameters so that you don’t ever have to revisit tuning them again. True or false?
+- False
 ---
-### 6.
 
+### 6. In batch normalization as presented in the videos, if you apply it on the llth layer of your neural network, what are you normalizing?
+- <img src="https://latex.codecogs.com/svg.image?z^{[l]}" title="z^{[l]}" />
 ---
-### 7.
+### 7. In the normalization formula <img src="https://latex.codecogs.com/svg.image?z_{norm}^{(i)}&space;=&space;\frac{z^(i)&space;-&space;\mu&space;}{\sqrt{\sigma&space;^2&space;&plus;&space;\varepsilon&space;}}" title="z_{norm}^{(i)} = \frac{z^(i) - \mu }{\sqrt{\sigma ^2 + \varepsilon }}" />, why do we use epsilon?
+- To avoid division by zero
+---
 
----
-### 8.
+### 8. Which of the following statements about \gammaγ and \betaβ in Batch Norm are true? 
 
 ---
 ### 9.
