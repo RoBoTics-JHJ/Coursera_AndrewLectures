@@ -1,8 +1,9 @@
 # Optimization Algorithms
 
 ### 1. Which notation would you use to denote the 3rd layer’s activations when the input is the 7th example from the 8th minibatch?
-- <img src="https://latex.codecogs.com/svg.image?a^{[3]{8}(7)}" title="a^{[3]{{8}}(7)}" />
+- <img src="https://latex.codecogs.com/svg.image?a^{[3]{8}(7)}" title="a^{[3]{8}(7)}" />
 ---
+
 ### 2. Which of these statements about mini-batch gradient descent do you agree with?
 - [x] One iteration of mini-batch gradient descent (computing on a single mini-batch) is faster than one iteration of batch gradient descent.
 - [ ] Training one epoch (one pass through the training set) using mini-batch gradient descent is faster than training one epoch using batch gradient descent.
@@ -18,7 +19,7 @@
 
 ### 4. Suppose your learning algorithm’s cost **_J_**, plotted as a function of the number of iterations, looks like this: 
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/4.png">
+  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/4.png">
 </p>
 
 Which of the following do you agree with?
@@ -41,7 +42,7 @@ Say you use an exponentially weighted average with <img src="https://latex.codec
 ---
 ### 7. You use an exponentially weighted average on the London temperature dataset. You use the following to track the temperature: <img src="https://latex.codecogs.com/svg.image?v_t&space;=&space;&space;\beta&space;v_{t-1}&space;&plus;&space;(1-\beta)&space;\theta&space;_t" title="v_t = \beta v_{t-1} + (1-\beta) \theta _t" />. The red line below was computed using <img src="https://latex.codecogs.com/svg.image?\beta&space;=&space;0.9" title="\beta = 0.9" /> . What would happen to your red curve as you vary <img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" />? (Check the two that apply)
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/7.png">
+  <img width="60%" height="60%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/7.png">
 </p>
 
 - Incresing <img src="https://latex.codecogs.com/svg.image?\beta" title="\beta" /> will shift the red line slightly to the right.
@@ -54,7 +55,7 @@ Say you use an exponentially weighted average with <img src="https://latex.codec
 
 ### 8. Consider this figure:
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/8.png">
+  <img width="50%" height="60%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/2nd_Improving%20Deep%20Neural%20Networks/2_Optimization%20algorithms/C2W2_Q_image/8.png">
 </p>
 
 These plots were generated with gradient descent; with gradient descent with momentum (β=0.5) and gradient descent with momentum (β=0.9). Which curve corresponds to which algorithm?
