@@ -19,7 +19,8 @@
 
 
 ### 5. Consider the following code:
-    A = np.random.randn(4,3)B = np.sum(A, axis = 1, keepdims = True) 
+    A = np.random.randn(4,3)
+    B = np.sum(A, axis = 1, keepdims = True) 
 What will be B.shape? (If you’re not sure, feel free to run this in python to find out).
 - (4,1)
 > we use (keepdims = True) to make sure that A.shape is (4,1) and not (4, ). It makes our code more robust. 
