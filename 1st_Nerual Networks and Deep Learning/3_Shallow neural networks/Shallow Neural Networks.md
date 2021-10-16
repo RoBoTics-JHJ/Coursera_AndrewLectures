@@ -38,7 +38,7 @@ What will be B.shape? (If you’re not sure, feel free to run this in python to 
 
 ### 9. Consider the following 1 hidden layer neural network:
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/3_Shallow%20neural%20networks/C1W3_Q_image/9.png">
+  <img width="50%" height="50%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/3_Shallow%20neural%20networks/C1W3_Q_image/9.png">
 </p>
 
 - <img src="https://latex.codecogs.com/svg.image?W^{[2]}" title="W^{[2]}" /> will have shape (1, 4)
