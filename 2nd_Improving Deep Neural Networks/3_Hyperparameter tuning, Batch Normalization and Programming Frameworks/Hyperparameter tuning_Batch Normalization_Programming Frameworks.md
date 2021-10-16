@@ -13,7 +13,7 @@
 - The amount of computational power you can access
 ---
 
-### 4. If you think \beta(hyperparameter for momentum) is between 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
+### 4. If you think <img src="https://latex.codecogs.com/svg.image?\beta&space;" title="\beta " />(hyperparameter for momentum) is between 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
 
 ---
 ### 5.
