@@ -14,8 +14,8 @@
 ---
 
 ### 4. If you think <img src="https://latex.codecogs.com/svg.image?\beta&space;" title="\beta " />(hyperparameter for momentum) is between 0.9 and 0.99, which of the following is the recommended way to sample a value for beta?
-    r = np.random.rand()
-    <img src="https://latex.codecogs.com/svg.image?\beta&space;=&space;1-&space;100^{-r-1}&space;" title="\beta = 1- 100^{-r-1} " />
+- r = np.random.rand()
+- <img src="https://latex.codecogs.com/svg.image?\beta&space;=&space;1-&space;100^{-r-1}&space;" title="\beta = 1- 100^{-r-1} " />
 ---
 ### 5.
 
