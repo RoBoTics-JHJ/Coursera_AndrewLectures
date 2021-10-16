@@ -32,8 +32,7 @@ What will be B.shape? (If you’re not sure, feel free to run this in python to 
 >  Logistic Regression doesn't have a hidden layer. If you initialize the weights to zeros, the first example x fed in the logistic regression will output zero but the derivatives of the Logistic Regression depend on the input x (because there's no hidden layer) which is not zero. So at the second iteration, the weights values follow x's distribution and are different from each other if x is not a constant vector. 
 ---
 ### 8. You have built a network using the tanh activation for all the hidden units. You initialize the weights to relative large values, using np.random.randn(..,..)*1000. What will happen? 
-- This will cause the inputs of the tanh to also be very large, thus causing gradients to be close to zero. The optimization algorithm will thus become slow. 
----
+- This will cause the inputs of the tanh to also be very large, thus causing gradients to be close to zero. The optimization algorithm will thus become slow.
 > tanh becomes flat for large values, this leads its gradient to be close to zero. This slows down the optimization algorithm.
 ---
 ### 9. Consider the following 1 hidden layer neural network:
