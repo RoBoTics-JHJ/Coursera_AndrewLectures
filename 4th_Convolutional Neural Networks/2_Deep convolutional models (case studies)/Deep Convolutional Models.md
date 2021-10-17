@@ -18,7 +18,7 @@
 - False
 ---
 
-### 4. The following equation captures the computation in a ResNet block. What goes into the two blanks above? 
+### 4. The following equation captures the computation in a ResNet block. What goes into the two (...) above? 
 <img src="https://latex.codecogs.com/svg.image?a^{[l&plus;2]}&space;=&space;g(W^{[l&plus;2]}g(W^{[l&plus;1]}a^{[l]}&space;&plus;&space;b^{[l&plus;1]})&space;&plus;&space;b^{l&plus;2}&space;&plus;&space;...&space;)&space;&plus;&space;..." title="a^{[l+2]} = g(W^{[l+2]}g(W^{[l+1]}a^{[l]} + b^{[l+1]}) + b^{l+2} + ... ) + ..." />
 
 -  <img src="https://latex.codecogs.com/svg.image?a^{[l]}" title="a^{[l]}" /> and 0, respectively
