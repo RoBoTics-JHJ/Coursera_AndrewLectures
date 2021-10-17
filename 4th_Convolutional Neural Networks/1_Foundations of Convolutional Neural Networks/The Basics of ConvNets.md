@@ -23,32 +23,59 @@
 - [ ] 7500
 - [ ] 2501
 - [ ] 2600 
-> you have 25×3=75 weights and 11 bias per filter. Given that you have 100 filters, you get 7,600 parameters for this layer.
+> you have 25×3=75 weights and 1 bias per filter. Given that you have 100 filters, you get 7,600 parameters for this layer.
 ---
 
-### 4. Which of the following is a correct definition of the triplet loss? Consider that α>0. (We encourage you to figure out the answer from first principles, rather than just refer to the lecture.)
-- <img src="https://latex.codecogs.com/svg.image?max(\left\|&space;f(A)&space;-&space;f(P)\right\|^2&space;-&space;\left\|&space;f(a)&space;-&space;f(N)\right\|^2&space;&plus;&space;\alpha,&space;0)" title="max(\left\| f(A) - f(P)\right\|^2 - \left\| f(a) - f(N)\right\|^2 + \alpha, 0)" />
+### 4. You have an input volume that is 63x63x16, and convolve it with 32 filters that are each 7x7, using a stride of 2 and no padding. What is the output volume?
+- [x] 29x29x32
+- [ ] 16x16x16
+- [ ] 29x29x16
+- [ ] 16x16x32
+> <img src="https://latex.codecogs.com/svg.image?\frac{63-7-0\times&space;2}{2}&space;&plus;&space;1&space;=&space;29" title="\frac{63-7-0\times 2}{2} + 1 = 29" /> and the number of channels should match the number of filters.
 ---
 
-### 5. Consider the following Siamese network architecture: 
-<p align="center">
-  <img width="70%" height="70%" src="">
-</p>
-
-
-
+### 5. You have an input volume that is 15x15x8, and pad it using “pad=2.” What is the dimension of the resulting volume (after padding)?
+- [x] 19x19x8
+- [ ] 19x19x12
+- [ ] 17x17x8
+- [ ] 17x17x10
+> padding is applied over the height and the width of the input image. If the padding is two, you add 4 to the height dimension and 4 the width dimension.
 ---
 
-### 6.
+### 6. You have an input volume that is 63x63x16, and convolve it with 32 filters that are each 7x7, and stride of 1. You want to use a “same” convolution. What is the padding?
+- [x] 3
+- [ ] 1
+- [ ] 7
+- [ ] 2
+> you need to satisfy the following equation: <img src="https://latex.codecogs.com/svg.image?n_H&space;-&space;f&space;&plus;&space;2&space;\times&space;p&space;=&space;n_H" title="n_H - f + 2 \times p = n_H" />   as you want to keep the dimensions between the input volume and the output volume.
 
 ---
-### 7.
+### 7. You have an input volume that is 32x32x16, and apply max pooling with a stride of 2 and a filter size of 2. What is the output volume?
+- [x] 16x16x16
+- [ ] 16x16x8
+- [ ] 15x15x16
+- [ ] 32x32x8
+> using the following formula: <img src="https://latex.codecogs.com/svg.image?n_H^{[l]}&space;=&space;\frac{n_H^{[l-1]}&plus;f-2p}{s}" title="n_H^{[l]} = \frac{n_H^{[l-1]}+f-2p}{s}" />
+---
+
+### 8. Because pooling layers do not have parameters, they do not affect the backpropagation (derivatives) calculation.
+- False
+> Everything that influences the loss should appear in the backpropagation because we are computing derivatives. In fact, pooling layers modify the input by choosing one value out of several values in their input volume. Also, to compute derivatives for the layers that have parameters (Convolutions, Fully-Connected), we still need to backpropagate the gradient through the Pooling layers.
+---
+
+### 9. In lecture we talked about “parameter sharing” as a benefit of using convolutional networks. Which of the following statements about parameter sharing in ConvNets are true? (Check all that apply.)
+- [x] It reduces the total number of parameters, thus reducing overfitting.
+- [x] It allows a feature detector to be used in multiple locations throughout the whole input image/input volume.
+- [ ] It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
+- [ ] It allows parameters learned for one task to be shared even for a different task (transfer learning).
+> by sliding a filter of parameters over the entire input volume, we make sure a feature detector can be used in multiple locations.
+> 
+> a convolutional layer uses parameter sharing and has usually a lot less parameters than a fully-connected layer.
 
 ---
-### 8.
-
----
-### 9.
-
----
-### 10.
+### 10. In lecture we talked about “sparsity of connections” as a benefit of using convolutional layers. What does this mean?
+- [x] Each activation in the next layer depends on only a small number of activations from the previous layer.
+- [ ] Regularization causes gradient descent to set many of the parameters to zero.
+- [ ] Each filter is connected to every channel in the previous layer.
+- [ ] Each layer in a convolutional network is connected only to two other layers
+> each activation of the output volume is computed by multiplying the parameters from only one filter with a volumic slice of the input volume and then summing all these together. 
