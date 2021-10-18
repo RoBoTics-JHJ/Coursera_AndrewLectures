@@ -5,7 +5,7 @@ It is an ongoing class and there is a copyright problem, so I will select and up
 
 # Quiz
 
-- [Course1_Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning){:target="_blank"}
+- [Course1_Neural Networks and Deep Learning]<https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning>{: target="_blank"}
   - wfsdf
   
 - [Course2_Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
