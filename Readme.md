@@ -5,9 +5,7 @@ It is an ongoing class and there is a copyright problem, so I will select and up
 
 # Quiz
 
-- <a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning" target="_blank">Course1_Neural Networks and Deep Learning</a>
-- [sdf][https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning]
-
+- [Course1_Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning)
 - [Course2_Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
 - [Course3_Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning)
 - [Course4_Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning)
