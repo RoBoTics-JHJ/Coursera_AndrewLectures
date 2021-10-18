@@ -2,7 +2,7 @@
 
 ### 1. You are building a 3-class object classification and localization algorithm. The classes are: pedestrian (c=1), car (c=2), motorcycle (c=3). What should <img src="https://latex.codecogs.com/svg.image?y" title="y" /> be for the image below? Remember that “?” means “don’t care”, which means that the neural network loss function won’t care what the neural network gives for that component of the output. Recall <img src="https://latex.codecogs.com/svg.image?y&space;=&space;\left&space;[&space;p_c,&space;b_x,&space;b_y,&space;b_h,&space;b_w,&space;c_1,&space;c_2,&space;c_3&space;\right&space;]" title="y = \left [ p_c, b_x, b_y, b_h, b_w, c_1, c_2, c_3 \right ]" />  
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/1.png">
+  <img width="40%" height="40%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/1.png">
 </p>
 
 - <img src="https://latex.codecogs.com/svg.image?y&space;=&space;\left&space;[&space;0,&space;?,?,?,?,?,?,?&space;\right&space;]" title="y = \left [ 0, ?,?,?,?,?,?,? \right ]" />
@@ -29,7 +29,7 @@ What is the most appropriate set of output units for your neural network?
 
 ### 5. What is the IoU between these two boxes? The upper-left box is 2x2, and the lower-right box is 2x3. The overlapping region is 1x1. 
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/5.png">
+  <img width="30%" height="30%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/5.png">
 </p>
 
 - 1/9
@@ -38,7 +38,7 @@ What is the most appropriate set of output units for your neural network?
 
 ### 6. Suppose you run non-max suppression on the predicted boxes above. The parameters you use for non-max suppression are that boxes with probability ≤ 0.4 are discarded, and the IoU threshold for deciding if two boxes overlap is 0.5. How many boxes will remain after non-max suppression?
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/6.png">
+  <img width="40%" height="40%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/4th_Convolutional%20Neural%20Networks/3_Object%20detection/C4W3_Q_image/6.png">
 </p>
 
 - 5
