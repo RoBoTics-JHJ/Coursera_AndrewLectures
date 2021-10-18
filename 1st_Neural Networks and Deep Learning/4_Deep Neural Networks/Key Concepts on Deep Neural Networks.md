@@ -31,7 +31,7 @@
 ---
 ### 6. Consider the following neural network.
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/4_Deep%20Neural%20Networks/C1W4_Q_image/6.png">
+  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Neural%20Networks%20and%20Deep%20Learning/4_Deep%20Neural%20Networks/C1W4_Q_image/6.png">
 </p>
 
 How many layers does this network have?
@@ -47,7 +47,7 @@ How many layers does this network have?
 ---
 ### 9. Consider the following 2 hidden layer neural network:
 <p align="center">
-  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Nerual%20Networks%20and%20Deep%20Learning/4_Deep%20Neural%20Networks/C1W4_Q_image/9.png">
+  <img width="70%" height="70%" src="https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/1st_Neural%20Networks%20and%20Deep%20Learning/4_Deep%20Neural%20Networks/C1W4_Q_image/9.png">
 </p>
 Which of the following statements are True? (Check all that apply).
 
