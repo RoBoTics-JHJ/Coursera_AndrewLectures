@@ -46,8 +46,11 @@ Then even if the word “ecstatic” does not appear in your small training set,
 - [ ] c is the sequence of all the words in the sentence before t.
 
 ### 8. Suppose you have a 10000 word vocabulary, and are learning 500-dimensional word embeddings. The word2vec model uses the following softmax function:
+
 <img src="https://latex.codecogs.com/svg.image?P(t|c)&space;=&space;\frac{e^{\theta^\frac{T}{t}e_c}}{\sum_{t^{'}=1}^{10000}e^{\theta&space;\frac{T}{t^{'}}e_c}}" title="P(t|c) = \frac{e^{\theta^\frac{T}{t}e_c}}{\sum_{t^{'}=1}^{10000}e^{\theta \frac{T}{t^{'}}e_c}}" />
+
 Which of these statements are correct? Check all that apply.
+
 - <img src="https://latex.codecogs.com/svg.image?\theta_t&space;" title="\theta_t " /> and <img src="https://latex.codecogs.com/svg.image?e_c" title="e_c" /> are both 500 dimensional vectors.
 - <img src="https://latex.codecogs.com/svg.image?\theta_t&space;" title="\theta_t " /> and <img src="https://latex.codecogs.com/svg.image?e_c" title="e_c" /> are both trained with an optimization algorithm such as Adam or gradient descent.
 
