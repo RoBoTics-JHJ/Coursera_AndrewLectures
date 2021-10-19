@@ -66,8 +66,7 @@ What are you doing at each time step _t_?
 
 Alice proposes to simplify the GRU by always removing the <img src="https://latex.codecogs.com/svg.image?\Gamma_u&space;" title="\Gamma_u " />.  I.e., setting <img src="https://latex.codecogs.com/svg.image?\Gamma_u&space;" title="\Gamma_u " /> = 1. Betty proposes to simplify the GRU by removing the <img src="https://latex.codecogs.com/svg.image?\Gamma_r" title="\Gamma_r" />.  I. e., setting <img src="https://latex.codecogs.com/svg.image?\Gamma_r" title="\Gamma_r" /> = 1 always. Which of these models is more likely to work without vanishing gradient problems even when trained on very long input sequences?    
 - Betty’s model (removing <img src="https://latex.codecogs.com/svg.image?\Gamma_r" title="\Gamma_r" />), because if <img src="https://latex.codecogs.com/svg.image?\Gamma_r" title="\Gamma_r" />≈0 for a timestep, the gradient can propagate back through that timestep without much decay. 
->  For the signal to backpropagate without vanishing, we need <img src="https://latex.codecogs.com/svg.image?c^{<t>}" title="c^{<t>}" /> to be highly dependent on <img src="https://latex.codecogs.com/svg.image?c^{<t-1>}" title="c^{<t-1>}" />. 
- .
+>  For the signal to backpropagate without vanishing, we need <img src="https://latex.codecogs.com/svg.image?c^{<t>}" title="c^{<t>}" /> to be highly dependent on <img src="https://latex.codecogs.com/svg.image?c^{<t-1>}" title="c^{<t-1>}" />.
 ---
 
 ### 9. Here are the equations for the GRU and the LSTM:
