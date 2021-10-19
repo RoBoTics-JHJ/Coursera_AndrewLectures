@@ -29,3 +29,16 @@ Most slides and pics are from [DeepLearning.AI](https://www.deeplearning.ai/) + 
   - [Q2_Natural Language Processing and Word Embeddings](https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/5th_Sequence%20Models/2_Natural%20Language%20Processing%20and%20Word%20Embeddings/Natural%20Language%20Processing%2C%20Word%20Embeddings.md)
   - [Q3_Sequence models and Attention mechanism](https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/5th_Sequence%20Models/3_Sequence%20models%20and%20Attention%20mechanism/Sequence%20Models%2C%20Attention%20Mechanism.md)
   - [Q4_Transformer Network](https://github.com/RoBoTics-JHJ/Coursera_AndrewLectures/blob/main/5th_Sequence%20Models/4_Transformer%20Network/Transformers.md)
+
+## <u>Form</u>
+### 1. Quiz
+- Answer
+
+or 
+
+- [x] Answer
+- [ ] False
+- [ ] False
+- [ ] False
+
+> cf. (Additional explanation)
